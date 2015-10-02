@@ -1,0 +1,5 @@
+	#question
+1094
+http://stackoverflow.com//questions/101754/is-there-a-way-to-run-python-on-android
+Q: Is there a way to run Python on Android?
+We are working on an S60 version and this platform has a nice Python API. However, there is nothing official about Python on Android, but since Jython exists, is there a way to let the snake and the robot work together?

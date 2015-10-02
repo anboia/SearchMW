@@ -1,0 +1,5 @@
+	#question
+384
+http://stackoverflow.com//questions/10407159/how-to-manage-startactivityforresult-on-android
+Q: How to manage `startActivityForResult` on Android?
+In my activity, I'm calling a second activity from the main activity by startActivityForResult. In my second activity there are some methods that finish this activity (maybe without result), however, just one of them return a result. For example, from the main activity I call a second one. In this activity I'm checking some features of handset such as does it have a camera. If it doesn't have then I'll close this activity. Also, during preparation of MediaRecorder or MediaPlayer if a problem happens then I'll close this activity. If its device has a camera and recording is done completely, then after recording a video if a user clicks on the done button then I'll send the result (address of the recorded video) back to main activity. How do I check the result from the main activity?

@@ -1,0 +1,5 @@
+	#question
+328
+http://stackoverflow.com//questions/3875184/cant-create-handler-inside-thread-that-has-not-called-looper-prepare
+Q: Can't create handler inside thread that has not called Looper.prepare()
+What does the following exception mean; how can I fix it? This is the code: Toast toast = Toast.makeText(mContext, "Something", Toast.LENGTH_SHORT); This is the exception: java.lang.RuntimeException: Can't create handler inside thread that has not called Looper.prepare()     at android.os.Handler.<init>(Handler.java:121)     at android.widget.Toast.<init>(Toast.java:68)     at android.widget.Toast.makeText(Toast.java:231)

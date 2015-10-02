@@ -1,0 +1,5 @@
+	#question
+434
+http://stackoverflow.com//questions/3035692/how-to-convert-a-drawable-to-a-bitmap
+Q: How to convert a Drawable to a Bitmap?
+I would like to set a certain Drawable as the device's wallpaper, but all wallpaper functions accept Bitmaps only. I cannot use WallpaperManager because I'm pre 2.1. Also, my drawables are downloaded from the web and do not reside in R.drawable.

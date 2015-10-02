@@ -1,0 +1,5 @@
+	#question
+260
+http://stackoverflow.com//questions/2471935/how-to-load-an-imageview-by-url-in-android
+Q: How to load an ImageView by URL in Android? [closed]
+How do you use an image referenced by URL in an ImageView?

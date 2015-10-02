@@ -1,0 +1,5 @@
+	#question
+446
+http://stackoverflow.com//questions/2002288/static-way-to-get-context-on-android
+Q: Static Way to get Context on android?
+Is there a way to get the current Context instance by using a static method? I'm looking for that way because i hate saving the context instance each time it changes.

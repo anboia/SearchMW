@@ -1,0 +1,5 @@
+	#question
+219
+http://stackoverflow.com//questions/3505930/make-an-http-request-with-android
+Q: Make an HTTP request with android
+I have searched everywhere but I couldn't find my answer, is there a way to make an simple HTTP request? I want to request an PHP page / script on one of my website but I don't want to show the webpage. If possible I even want to do it in the background (in an BroadcastReceiver)

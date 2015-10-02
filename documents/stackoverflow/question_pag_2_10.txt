@@ -1,0 +1,5 @@
+	#question
+430
+http://stackoverflow.com//questions/2091465/how-do-i-pass-data-between-activities-in-android
+Q: How do I pass data between activities in Android?
+I have a scenario where after logging in through a login page, there will be sign out button on each activity. On clicking signout, I will be passing the session id of the signed in user to signout.Can anyone guide me on how to keep session id available to all activities?? Alternatively, are there any other solutions to this problem?

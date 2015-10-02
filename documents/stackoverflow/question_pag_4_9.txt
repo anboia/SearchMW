@@ -1,0 +1,5 @@
+	#question
+354
+http://stackoverflow.com//questions/5049852/android-drawing-separator-divider-line-in-layout
+Q: Android Drawing Separator/Divider Line in Layout?
+I would like to draw a line right in the middle of a layout and use it as a separator of other items like TextView. Is there a good widget for this. I don't really want to use an image as it would be hard to match the other components to it. And I want it to be relatively positioned as well. Thanks

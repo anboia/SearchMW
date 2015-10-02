@@ -1,0 +1,5 @@
+	#question
+118
+http://stackoverflow.com//questions/1492554/set-transparent-background-of-an-imageview-in-android
+Q: Set transparent background of an imageview in Android
+I am using a web view in which I am adding an image view. Now I want to set the background of this image view transparent. I have tried this: mImageview.setBackgroundResource(R.color.trans); Where trans => <color name="trans">#00000000 </color>.

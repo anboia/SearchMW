@@ -1,0 +1,5 @@
+	#question
+370
+http://stackoverflow.com//questions/2020088/sending-email-in-android-using-javamail-api-without-using-the-default-built-in-a
+Q: Sending Email in Android using JavaMail API without using the default/built-in app
+I am trying to create a mail sending application in Android. If I use: Intent emailIntent = new Intent(android.content.Intent.ACTION_SEND); This will launch the built-in Android application; I'm trying to send the mail on button click directly without using this application.

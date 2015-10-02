@@ -1,0 +1,5 @@
+	#question
+407
+http://stackoverflow.com//questions/16608135/android-studio-add-jar-as-library
+Q: Android Studio: Add jar as library?
+I'm trying to use the new Android Studio but i can't seem to get it working correctly. I'm using the Gson-library to serialize/deserialize JSON-objects. But the library somehow isn't included in the build. I created a new project with just a MainActivity. Copied gson-2.2.3.jar in the /libs folder and added it as a library (right click->Add as library). This includes the jar in android studio so it can be referenced from the source files. When I try to run the project it cannot compile so i added compile files('libs/gson-2.2.3.jar') to the dependencies in de .gradle file. After that it compiles correctly but when running the application i get a ClassDefNotFoundException.Does anyone know what i'm doing wrong?

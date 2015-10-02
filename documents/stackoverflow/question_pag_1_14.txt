@@ -1,0 +1,5 @@
+	#question
+343
+http://stackoverflow.com//questions/4605527/converting-pixels-to-dp
+Q: Converting pixels to dp
+I have created my application with the height and width given in pixels for a Pantech device whose resolution is 480x800. I need to convert height and width for a G1 device. I thought converting it into dp will solve the problem and provide same solution for both devices. Is there any easy way to convert pixels to dp? Any suggestions?

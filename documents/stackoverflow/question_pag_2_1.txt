@@ -1,0 +1,5 @@
+	#question
+589
+http://stackoverflow.com//questions/3482742/gravity-and-layout-gravity-on-android
+Q: Gravity and layout_gravity on Android
+I know we can set the following value to the android:gravity and android:layout_gravity. center center_vertical center_horizontal, etc. But I am confused regarding both of these. What is the difference between the usage of android:gravity and android:layout_gravity?

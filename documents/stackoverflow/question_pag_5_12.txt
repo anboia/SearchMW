@@ -1,0 +1,5 @@
+	#question
+250
+http://stackoverflow.com//questions/4602902/how-to-set-the-text-color-of-textview-in-code
+Q: How to set the text color of TextView in code?
+In XML, we can set a text color by the textColor attribute, like android:textColor="#FF0000". But how do I change it by coding? I tried something like: holder.text.setTextColor(R.color.Red); Where holder is just a class and text is of type TextView. Red is an RGB value (#FF0000) set in strings. But it shows a different color rather than red. What kind of parameter can we pass in setTextColor()? In documentation, it says int, but is it a resource reference value or anything else?

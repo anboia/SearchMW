@@ -1,0 +1,5 @@
+	#question
+969
+http://stackoverflow.com//questions/6343166/android-os-networkonmainthreadexception
+Q: android.os.NetworkOnMainThreadException
+In the below code I got an error when running my Android project for RssReader. URL url = new URL(urlToRssFeed);SAXParserFactory factory = SAXParserFactory.newInstance();SAXParser parser = factory.newSAXParser();XMLReader xmlreader = parser.getXMLReader();RssHandler theRSSHandler = new RssHandler();xmlreader.setContentHandler(theRSSHandler);InputSource is = new InputSource(url.openStream());xmlreader.parse(is);return theRSSHandler.getFeed(); And it shows an error: android.os.NetworkOnMainThreadException How can I fix this issue?

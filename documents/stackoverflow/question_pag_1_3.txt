@@ -1,0 +1,5 @@
+	#question
+1571
+http://stackoverflow.com//questions/1109022/close-hide-the-android-soft-keyboard
+Q: Close/hide the Android Soft Keyboard
+I have an EditText and a Button in my layout. After writing in the edit field and clicking on the Button, I want to hide the virtual keyboard. I assume that there's a simple, one- or two-liner to make this happen. Where can I find an example of it?

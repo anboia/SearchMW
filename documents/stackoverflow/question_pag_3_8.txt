@@ -1,0 +1,5 @@
+	#question
+310
+http://stackoverflow.com//questions/2115758/how-to-display-alert-dialog-in-android
+Q: how to display Alert Dialog in android?
+I want to display dialog/popup window for message to user that shows "Are you sure you want to delete this entry?" with One button of 'Delete' . On click of button Delete, it should delete that entry otherwise nothing. I have written a click listener of those buttons but I dont know how to invoke dialog or popup and its functionality.

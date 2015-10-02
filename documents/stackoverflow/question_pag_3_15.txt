@@ -1,0 +1,5 @@
+	#question
+394
+http://stackoverflow.com//questions/3480201/how-do-you-install-an-apk-file-in-the-android-emulator
+Q: How do you install an APK file in the Android emulator?
+I finally managed to obfuscate my Android application, now I want to test it by installing the APK file and running it on the emulator. How can I install an APK file on the Android Emulator?

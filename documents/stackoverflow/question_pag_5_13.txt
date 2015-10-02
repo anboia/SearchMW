@@ -1,0 +1,5 @@
+	#question
+245
+http://stackoverflow.com//questions/2757107/developing-for-android-in-eclipse-r-java-not-generating
+Q: Developing for Android in Eclipse: R.java not generating
+I've found out that my R.java is never updated, so it doesn't contain info about my new resources, so I decided to delete it and thought that Eclipse will generate a new one. But that didn't happen and I don't have R.java now. How can I generate one?I'm using Win7, if that changes anything. From one of the comments: "Doing Project->Clean is what caused the problem for me. Cleaning deletes R.java...and for whatever reason the plugin is not regenerating the file."

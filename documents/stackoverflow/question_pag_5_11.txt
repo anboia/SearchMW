@@ -1,0 +1,5 @@
+	#question
+175
+http://stackoverflow.com//questions/5443304/how-to-change-an-android-apps-name
+Q: How to change an Android app's name?
+Is there a way to change the name of an app without creating a new project? Example: On the home page where my apps are, I have an icon and the name x, but i want to change the name to y. Can I do this?

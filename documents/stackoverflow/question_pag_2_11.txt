@@ -1,0 +1,5 @@
+	#question
+561
+http://stackoverflow.com//questions/3593420/is-there-a-way-to-get-the-source-code-from-an-apk-file
+Q: Is there a way to get the source code from an APK file? [closed]
+The hard drive on my laptop just crashed and I lost all the source code for an app that I have been working on for the past two months.All I have is the APK file that is stored in my email from when I sent it to a friend. Is there any way to extract my source code from this APK file?

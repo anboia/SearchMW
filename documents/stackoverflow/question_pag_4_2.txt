@@ -1,0 +1,5 @@
+	#question
+378
+http://stackoverflow.com//questions/2139134/how-to-send-an-object-from-one-android-activity-to-another-using-intents
+Q: How to send an object from one Android Activity to another using Intents?
+How can I pass an object of a custom type from one Activity to another using the putExtra() method of the class Intent?

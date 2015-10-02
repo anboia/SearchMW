@@ -1,0 +1,5 @@
+	#question
+1991
+http://stackoverflow.com//questions/1554099/why-is-the-android-emulator-so-slow-how-can-we-speed-up-the-android-emulator
+Q: Why is the Android emulator so slow? How can we speed up the Android emulator?
+I have a 2.67 GHz Celeron processor, and 1.21 GB of RAM on a x86 Windows XP Professional machine. My understanding is that the Android emulator should start fairly quickly on such a machine, but for me it does not. I have followed all the instructions in setting up the IDE, SDKs, JDKs and such and have had some success in starting the emulator quickly, but that is very rare. How can I, if possible, fix this problem? Even if it starts and loads the home screen, it is very sluggish. I have tried the Eclipse IDE in version 3.5 (Galileo) and 3.4 (Ganymede).

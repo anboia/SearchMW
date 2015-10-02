@@ -1,0 +1,5 @@
+	#question
+349
+http://stackoverflow.com//questions/3004515/android-sending-an-intent-to-browser-to-open-specific-url
+Q: Android: Sending an Intent to Browser to open specific URL [duplicate]
+This question already has an answer here: How can I open a URL in Android's web browser from my application? 14 answers I'm just wondering how to fire up an Intent to the phone's browser to Open an specific URL and display it. Can someone please give a hint? Is there also a way to pass coords directly to google maps to display?

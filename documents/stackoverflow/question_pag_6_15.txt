@@ -1,0 +1,5 @@
+	#question
+164
+http://stackoverflow.com//questions/8024706/how-do-i-change-the-background-color-of-the-actionbar-of-an-actionbaractivity-us
+Q: How do I change the background color of the ActionBar of an ActionBarActivity using XML?
+Details: I'm extending ActionBarActivity. Eclipse and SDK fully patched as of 2011-11-06. <uses-sdk android:minSdkVersion="4" android:targetSdkVersion="14" />  Deployed to Samsung device with Android 2.3.3 Application has android:theme="@android:style/Theme.Light" Issue: application is light, but ActionBar is blue with grey icons, hardly visible against the blue background color. I also want the ActionBar to be light, so they grey icons are more visible. I've tried modifying the styles but to no avail. I'm probably missing something trivial. How do I change the background color of the ActionBar of an ActionBarActivity using XML ?

@@ -1,0 +1,5 @@
+	#question
+494
+http://stackoverflow.com//questions/1521640/standard-android-button-with-a-different-color
+Q: Standard Android Button with a different color
+I'd like to change the color of a standard Android button slightly in order to better match a client's branding. The best way I've found to do this so far is to change the Button's drawable to the following drawable located in res/drawable/red_button.xml: <?xml version="1.0" encoding="utf-8"?>    <selector xmlns:android="http://schemas.android.com/apk/res/android">    <item android:state_pressed="true" android:drawable="@drawable/red_button_pressed" />    <item android:state_focused="true" android:drawable="@drawable/red_button_focus" />    <item android:drawable="@drawable/red_button_rest" /></selector> But doing that requires that I actually create three different drawables for each button I want to customize (one for the button at rest, one when focused, and one when pressed). That seems more complicated and non-DRY than I need. All I really want to do is apply some sort of color transform to the button. Is there an easier way to go about changing a button's color than I'm doing?

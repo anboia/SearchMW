@@ -1,0 +1,5 @@
+	#question
+372
+http://stackoverflow.com//questions/26355645/error-in-launching-avd
+Q: Error in launching AVD
+I have Windows 8.1 pro with an AMD processor. I installed the Android SDK and Eclipse. It works but the problem is that when I Create AVD and launch it it shows this error: >emulator: ERROR: x86 emulation currently requires hardware acceleration!  >Please ensure Intel HAXM is properly installed and usable.  >CPU acceleration status: HAX kernel module is not installed!  I have already installed Intel Hardware_Accelerated_Execution_Manager and I have enabled Virtual modulation from the boot menu, but it's still not working.

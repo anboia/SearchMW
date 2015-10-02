@@ -1,0 +1,5 @@
+	#question
+213
+http://stackoverflow.com//questions/1715697/what-is-the-best-ide-to-develop-android-apps-in
+Q: What is the best IDE to develop Android apps in? [closed]
+I am about to start developing an android app and need to get an IDE. Eclipse and the android eclipse plugin appears to be the natural choice. However I am familiar with intelliJ and re-sharper so I would prefer use intelliJ. Has anyone used http://code.google.com/p/idea-android? Is this any good? Should I just bite the bullet and learn Eclipse?

@@ -1,0 +1,5 @@
+	#question
+866
+http://stackoverflow.com//questions/4382178/android-sdk-installation-doesnt-find-jdk
+Q: Android SDK installation doesn't find JDK
+I'm trying to install the Android SDK on my Windows 7 x64 System. jdk-6u23-windows-x64.exe is installed, but the Android SDK setup refuses to proceed, because it doesn't find the JDK installation. Is this a known issue? And is there a solution?

@@ -1,0 +1,5 @@
+	#question
+111
+http://stackoverflow.com//questions/2507960/does-android-keep-the-apk-files-if-so-where
+Q: Does Android keep the .apk files? if so where?
+After android installs an application from the Marketplace, does it keep the .apk file? Is there a standard location where Android would keep such files?

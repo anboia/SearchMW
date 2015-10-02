@@ -1,0 +1,5 @@
+	#question
+436
+http://stackoverflow.com//questions/1249973/decompiling-dex-into-java-sourcecode
+Q: decompiling DEX into Java sourcecode
+How can one decompile Android DEX (VM bytecode) files into corresponding Java sourcecode?

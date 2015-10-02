@@ -1,0 +1,5 @@
+	#question
+131
+http://stackoverflow.com//questions/1921514/how-to-run-a-runnable-thread-in-android
+Q: How to run a Runnable thread in Android?
+I developed one small application to display some text at defined intervals in the android emulator screen. I am using Handler class, small snippet from my code : handler = new Handler();Runnable r = new Runnable() {    public void run() {        tv.append("Hello World");                   }};handler.postDelayed(r, 1000); When i run this application the text is displayed only once. Please any one knows how to run a thread using Handler help me.

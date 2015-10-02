@@ -1,0 +1,5 @@
+	#question
+375
+http://stackoverflow.com//questions/2604727/how-can-i-connect-to-android-with-adb-over-tcp
+Q: How can I connect to Android with ADB over TCP?
+I am attempting to debug an application on a Motorola Droid, but I am having some difficulty connecting to the device via USB. My development server is a Windows 7 64-bit VM running in Hyper-V, and so I cannot connect directly via USB in the guest or from the host. I installed a couple of different USB-over-TCP solutions, but the connection appears to have issues since the ADB monitor reports "devicemonitor failed to start monitoring" repeatedly. Is there a way to connect directly from the client on the development machine to the daemon on the device using the network instead of the USB connection or possibly another viable options?

@@ -1,0 +1,5 @@
+	#question
+738
+http://stackoverflow.com//questions/2680827/conversion-to-dalvik-format-failed-with-error-1-on-external-jar
+Q: “Conversion to Dalvik format failed with error 1” on external JAR
+In my Android application in Eclipse I get the following error. UNEXPECTED TOP-LEVEL EXCEPTION: java.lang.IllegalArgumentException: already added: Lorg/xmlpull/v1/XmlPullParser; .... Conversion to Dalvik format failed with error 1 This error only appears when I add a specific external JAR file to my project. I searched for a long time for the possible solution, but none of the possible solutions work. I even tried to change to Android 1.6 instead of 1.5 (the current version I use).

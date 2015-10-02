@@ -1,0 +1,5 @@
+	#question
+473
+http://stackoverflow.com//questions/5369682/get-current-time-and-date-on-android
+Q: Get current time and date on Android
+How can I get the current time and date in an Android app?

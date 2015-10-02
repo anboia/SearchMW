@@ -1,0 +1,5 @@
+	#question
+37
+http://stackoverflow.com//questions/963340/how-to-add-an-extra-language-input-to-android
+Q: How to add an extra language input to Android? [closed]
+Is it possible to add extra languages to Android? My current Android phone only supports English and Chinese language input. I would like to have Dutch also, as I can use it for word completion. The question on top of that is, how to switch easily between these languages in the text input (keyboard) GUI?

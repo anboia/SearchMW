@@ -1,0 +1,5 @@
+	#question
+194
+http://stackoverflow.com//questions/4623508/how-to-set-the-font-style-to-bold-italic-and-underlined-in-an-android-textview
+Q: How to set the font style to bold, italic and underlined in an Android TextView?
+I want to make a TextView's content bold, italic and underlined. I tried the following code and it works, but doesn't underline. <Textview android:textStyle="bold|italic" .. How do I do it? Any quick ideas?

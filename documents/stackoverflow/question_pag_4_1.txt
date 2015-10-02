@@ -1,0 +1,5 @@
+	#question
+279
+http://stackoverflow.com//questions/20121883/how-to-install-google-play-services-in-a-genymotion-vm-with-no-drag-and-drop-su
+Q: How to install Google Play Services in a Genymotion VM (with no drag and drop support)?
+How can I install Google Play Services in a Genymotion emulator with no drag and drop support? I can't install it as mentioned in Stack Overflow post How do you install Google frameworks (Play, Accounts, etc.) on a Genymotion virtual device? due to the lack of support for drag and drop installation. Genymotion supports Google Apps for a few emulators, but it doesn't support tablet emulators.

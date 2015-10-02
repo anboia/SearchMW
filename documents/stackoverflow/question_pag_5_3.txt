@@ -1,0 +1,5 @@
+	#question
+221
+http://stackoverflow.com//questions/1371939/how-can-i-use-ms-visual-studio-for-android-development
+Q: How can I use MS Visual Studio for Android Development?
+Can you use Visual Studio for Android Development? If so how would you set the android SDK instead of .NET framework and are there any special settings or configuration?

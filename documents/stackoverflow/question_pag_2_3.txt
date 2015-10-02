@@ -1,0 +1,5 @@
+	#question
+739
+http://stackoverflow.com//questions/456211/activity-restart-on-rotation-android
+Q: Activity restart on rotation Android
+In my Android application, when I rotate the device (slide out the keyboard) then my Activity is restarted (onCreate is called). Now, this is probably how it's supposed to be, but I do a lot of initial setting up in the onCreate method, so I need either: Put all the initial setting up in another function so it's not all lost on device rotation or Make it so onCreate is not called again and the layout just adjusts or Limit the app to just portrait so that onCreate is not called.

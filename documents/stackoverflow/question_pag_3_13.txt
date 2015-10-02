@@ -1,0 +1,5 @@
+	#question
+297
+http://stackoverflow.com//questions/3624280/how-to-use-sharedpreferences-in-android-to-store-fetch-and-edit-values
+Q: How to use SharedPreferences in Android to store, fetch and edit values
+I want to store a time value and need to retrieve and edit it. How can I use SharedPreferences to do this?

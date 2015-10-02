@@ -1,0 +1,5 @@
+	#question
+60
+http://stackoverflow.com//questions/2300169/how-to-change-text-in-android-textview
+Q: how to change text in Android TextView
+I tried to do this @Overridepublic void onCreate(Bundle savedInstanceState) {    super.onCreate(savedInstanceState);    setContentView(R.layout.main);    t=new TextView(this);     t=(TextView)findViewById(R.id.TextView01);     t.setText("Step One: blast egg");    try {        Thread.sleep(10000);    } catch (InterruptedException e) {        // TODO Auto-generated catch block        e.printStackTrace();    }    t.setText("Step Two: fry egg"); but for some reason, only the second text shows up when I run it. I think it might have something to do with the Thread.sleep() method blocking. So can someone show me how to implement a timer "asynchronously"? Thanks.

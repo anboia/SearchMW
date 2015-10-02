@@ -1,0 +1,5 @@
+	#question
+704
+http://stackoverflow.com//questions/3572463/what-is-context-in-android
+Q: What is Context in Android?
+In Android programming, what exactly is a Context class and what is it used for? I read about it on the developer site, but I am unable to understand it clearly.

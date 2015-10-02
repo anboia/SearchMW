@@ -1,0 +1,5 @@
+	#question
+866
+http://stackoverflow.com//questions/432037/how-do-i-center-text-horizontally-and-vertically-in-a-textview-in-android
+Q: How do I center text horizontally and vertically in a TextView in Android?
+How do I center the text horizontally and vertically in a TextView in Android, so that it appears exactly in the middle of the TextView?

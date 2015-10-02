@@ -1,0 +1,5 @@
+	#question
+146
+http://stackoverflow.com//questions/2169294/how-to-add-manifest-permission-to-android-application
+Q: How to add manifest permission to android application?
+I am trying to access http link using HttpURLConnection in Android to download a file, but getting this warning in LogCat: WARN/System.err(223): java.net.SocketException: Permission denied (maybe missing INTERNET permission) I have added android.Manifest.permission to my application but its still giving the same exception.

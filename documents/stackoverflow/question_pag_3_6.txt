@@ -1,0 +1,5 @@
+	#question
+316
+http://stackoverflow.com//questions/4233873/how-to-get-extra-data-from-intent-in-android
+Q: How to get extra data from intent in android?
+How can I send data from one activity (intent) to another? I use this code to send data: Intent i=new Intent(context,SendMessage.class);i.putExtra("id", user.getUserAccountId()+"");i.putExtra("name", user.getUserFullName());context.startActivity(i);

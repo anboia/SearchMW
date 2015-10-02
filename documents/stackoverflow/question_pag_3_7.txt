@@ -1,0 +1,5 @@
+	#question
+134
+http://stackoverflow.com//questions/2748830/how-to-change-background-color-in-android-app
+Q: How to change background color in android app
+I want to be able to change the background color to white in my android app in the simplest way possible.

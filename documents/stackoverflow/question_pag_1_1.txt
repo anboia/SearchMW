@@ -1,0 +1,5 @@
+	#question
+2805
+http://stackoverflow.com//questions/2025282/difference-between-px-dp-dip-and-sp-in-android
+Q: Difference between px, dp, dip and sp in Android?
+What is the difference between the px, dip, dp and sp units in Android?

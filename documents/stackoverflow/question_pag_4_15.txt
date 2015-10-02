@@ -1,0 +1,5 @@
+	#question
+322
+http://stackoverflow.com//questions/3496269/how-to-put-a-border-around-an-android-textview
+Q: how to put a border around an android textview
+Is it possible to draw a border around a textview?

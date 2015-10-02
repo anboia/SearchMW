@@ -1,0 +1,5 @@
+	#question
+155
+http://stackoverflow.com//questions/14993855/android-adb-device-offline-cant-issue-commands
+Q: Android ADB device offline, can't issue commands
+I can't connect to my device anymore using ADB through the command line or in Eclipse. Running the command adb devices returns the device name, but it says it's offline. Things I've tried. Toggled Android debugging mode Reinstalled the Google USB driver Restored the OS to a previously working backup (CyanogenMod) Swapped the USB cord Rebooted the phone/computer multiple times Updated the Android SDK I really don't have any clue what's going on. Anything else you think I can try, I'm all ears. To be clear, if you're having this same issue the problem is probably an out-of-date SDK. As of 4.2.2 there is a security feature that requires you to confirm the RSA fingerprint of the connecting device. Open the SDK manager and update the tools! Then reboot.

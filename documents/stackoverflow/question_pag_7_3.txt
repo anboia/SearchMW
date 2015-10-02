@@ -1,0 +1,5 @@
+	#question
+198
+http://stackoverflow.com//questions/9572795/convert-list-to-array-in-java
+Q: Convert list to array in Java
+How can I convert a List to an Array in Java? Check the code below: ArrayList<Tienda> tiendas;List<Tienda> tiendasList; tiendas = new ArrayList<Tienda>();Resources res = this.getBaseContext().getResources();XMLParser saxparser =  new XMLParser(marca,res);tiendasList = saxparser.parse(marca,res);tiendas = tiendasList.toArray();this.adaptador = new adaptadorMarca(this, R.layout.filamarca, tiendas);setListAdapter(this.adaptador);  I need to populate the array tiendas with the values of tiendasList.

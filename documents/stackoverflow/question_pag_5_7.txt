@@ -1,0 +1,5 @@
+	#question
+196
+http://stackoverflow.com//questions/7824730/r-cannot-be-resolved-to-a-variable
+Q: “R cannot be resolved to a variable”? [duplicate]
+This question already has an answer here: Developing for Android in Eclipse: R.java not generating 62 answers In Eclipse, I've created a project from a source and now it shows errors - "R cannot be resolved to a variable". From what I found here, I had cleared and rebuilt the project, but still the R file doesn't appear in the /gen folder. Any ideas?

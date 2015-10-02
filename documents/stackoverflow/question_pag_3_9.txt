@@ -1,0 +1,5 @@
+	#question
+419
+http://stackoverflow.com//questions/16588064/how-do-i-add-a-library-project-to-the-android-studio
+Q: How do I add a library project to the Android Studio?
+How do I add a library project (such as Sherlock ABS) to the Android Studio? (Not to the old ADT Eclipse-based bundle, but to the new Android Studio.)

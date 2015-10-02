@@ -1,0 +1,5 @@
+	#question
+126
+http://stackoverflow.com//questions/2092951/how-to-close-android-application
+Q: How to close Android application?
+I want to close my application, so that it no longer runs in the background. How to do that? Is this good practice on Android platform? If I rely on the "back" button, it closes the app, but it stays in background. There is even application called "TaskKiller" just to kill those apps in the background.

@@ -1,0 +1,5 @@
+	#question
+71
+http://stackoverflow.com//questions/6166677/android-screen-size-hdpi-ldpi-mdpi
+Q: Android screen size HDPI, LDPI, MDPI [duplicate]
+This question already has an answer here: Android splash screen image sizes to fit all devices 5 answers I have a background that I need fit in all screen sizes. I have three folders, hdpi, ldpi and mdpi for drawables, but in the emulator there isn't any referense to what resolution hdpi is and what mdpi and ldpi are.

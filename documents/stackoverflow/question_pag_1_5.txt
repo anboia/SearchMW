@@ -1,0 +1,5 @@
+	#question
+1200
+http://stackoverflow.com//questions/1555109/stop-edittext-from-gaining-focus-at-activity-startup
+Q: Stop EditText from gaining focus at Activity startup
+I have an Android Activity, with two elements: EditText ListView When my Activity starts, the EditText immediately has input focus (flashing cursor). I don't want any control to have input focus at startup. I tried: EditText.setSelected(false); No luck. How can I convince the EditText to not select itself when the Activity starts?

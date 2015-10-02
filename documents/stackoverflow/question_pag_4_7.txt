@@ -1,0 +1,5 @@
+	#question
+365
+http://stackoverflow.com//questions/1560788/how-to-check-internet-access-on-android-inetaddress-never-timeouts
+Q: How to check internet access on Android? InetAddress never timeouts…
+I got a AsyncTask that is supposed to check the network access to a host name. But the doInBackground() is never timed out. Anyone have a clue? public class HostAvailabilityTask extends AsyncTask<String, Void, Boolean> {    private Main main;    public HostAvailabilityTask(Main main) {        this.main = main;    }    protected Boolean doInBackground(String... params) {        Main.Log("doInBackground() isHostAvailable():"+params[0]);        try {            return InetAddress.getByName(params[0]).isReachable(30);         } catch (UnknownHostException e) {            e.printStackTrace();        } catch (IOException e) {            e.printStackTrace();        }        return false;           }    protected void onPostExecute(Boolean... result) {        Main.Log("onPostExecute()");        if(result[0] == false) {            main.setContentView(R.layout.splash);            return;        }        main.continueAfterHostCheck();    }   }

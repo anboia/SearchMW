@@ -1,0 +1,5 @@
+	#question
+88
+http://stackoverflow.com//questions/2709253/converting-a-string-to-an-integer-on-android
+Q: Converting a string to an integer on Android
+How do I convert a string into an integer? I have a textbox I have the user enter a number into: EditText et = (EditText) findViewById(R.id.entry1);String hello = et.getText().toString(); And the value is assigned to the string hello. I want to convert it to a integer so I can get the number they typed; it will be used later on in code. Is there a way to get the EditText to a integer? That would skip the middle man. If not, string to integer will be just fine.

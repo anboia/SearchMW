@@ -1,0 +1,5 @@
+	#question
+369
+http://stackoverflow.com//questions/4600891/how-to-build-an-apk-file-in-eclipse
+Q: How to build an APK file in Eclipse?
+When I develop the project using Eclipse, the APK file goes on the emulator. But I want to upload my application to a real device. Is there a tool to build an APK file? What is the process? Or is it possible to pull the APK file from the emulator?

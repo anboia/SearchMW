@@ -1,0 +1,5 @@
+	#question
+292
+http://stackoverflow.com//questions/16581752/android-studio-how-to-change-android-sdk-path
+Q: Android Studio - How to Change Android SDK Path
+When I open Android SDK Manager from Android Studio, the SDK Path displayed is: \android-studio\sdk I want to change this path. How do I do it?

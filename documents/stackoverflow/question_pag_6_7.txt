@@ -1,0 +1,5 @@
+	#question
+215
+http://stackoverflow.com//questions/12128331/how-to-change-fontfamily-of-textview-in-android
+Q: How to change fontFamily of TextView in Android
+So I like to change the android:fontFamily in Android but I don't see any pre-defined fonts in Android. How to select one of the pre-defined ones? I don't really need to define my own TypeFace but all I need is something different from what it shows right now. <TextView    android:id="@+id/HeaderText"    android:layout_width="wrap_content"    android:layout_height="wrap_content"    android:layout_alignParentTop="true"    android:layout_centerHorizontal="true"    android:layout_marginTop="52dp"    android:gravity="center"    android:text="CallerBlocker"    android:textSize="40dp"    android:fontFamily="Arial" /> It seems what I did up there won't really work! BTW android:fontFamily="Arial" was a stupid attempt!

@@ -1,0 +1,5 @@
+	#question
+1136
+http://stackoverflow.com//questions/2785485/is-there-a-unique-android-device-id
+Q: Is there a unique Android device ID?
+Do Android devices have a unique ID, and if so, what is a simple way to access it using Java?

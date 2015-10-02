@@ -1,0 +1,5 @@
+	#question
+1109
+http://stackoverflow.com//questions/541966/lazy-load-of-images-in-listview
+Q: Lazy load of images in ListView
+I am using a ListView to display some images and captions associated with those images. I am getting the images from the Internet. Is there a way to lazy load the images so while the text displays, the UI is not locked up and images are displayed as they are downloaded? The number of images is not fixed.

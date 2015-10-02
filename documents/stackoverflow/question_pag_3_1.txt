@@ -1,0 +1,5 @@
+	#question
+491
+http://stackoverflow.com//questions/582185/android-disable-landscape-mode
+Q: Android - disable landscape mode?
+How can I disable landscape mode for some of the views in my Android app?

@@ -1,0 +1,5 @@
+	#question
+172
+http://stackoverflow.com//questions/3500197/how-to-display-toast-in-android
+Q: How to display Toast in Android?
+I have a slider that can be pulled up and then it shows a map. I can move the slider up and down to hide or show the map. When the map is on front, I can handle touch events on that map. Everytime I touch, a AsyncTask is fired up, it downloads some data and makes a Toast that displays the data. Although I start the task on touch event no toast is displayed, not till I close the slider. When the slider is closed and the map is not displayed anymore the Toast appears. any ideas? well start the task EDIT: public boolean onTouchEvent(MotionEvent event, MapView mapView){     if (event.getAction() == 1) {        new TestTask(this).execute();        return true;                }else{        return false;    } } and in onPostExecute make a toast Toast.makeText(app.getBaseContext(),(String)data.result,                 Toast.LENGTH_SHORT).show(); In new TestTask(this), this is a reference to MapOverlay and not to MapActivity, so this was the problem.

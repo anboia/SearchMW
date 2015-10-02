@@ -1,0 +1,5 @@
+	#question
+1050
+http://stackoverflow.com//questions/1016896/get-screen-dimensions-in-pixels
+Q: Get screen dimensions in pixels
+I created some custom elements, and I want to programmatically place them to the upper right corner (n pixels from the top edge and m pixels from the right edge). Therefore I need to get the screen width and screen height and then set position: int px = screenWidth - m;int py = screenHeight - n; How do I get screenWidth and screenHeight in the main Activity?

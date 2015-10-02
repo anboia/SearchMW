@@ -1,0 +1,5 @@
+	#question
+264
+http://stackoverflow.com//questions/867518/how-to-make-an-android-spinner-with-initial-text-select-one
+Q: How to make an Android Spinner with initial text “Select One”
+In Android, I want to use a Spinner that initially (when the user has not made a selection yet) displays the text "Select One". When the user clicks the spinner, the list of items is displayed and the user selects one of the options. After the user has made a selection, the selected item is displayed in the Spinner instead of "Select One". I have the following code to create a Spinner: String[] items = new String[] {"One", "Two", "Three"};Spinner spinner = (Spinner) findViewById(R.id.mySpinner);ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,            android.R.layout.simple_spinner_item, items);adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);spinner.setAdapter(adapter); With this code, initially the item "One" is displayed. I could just add a new item "Select One" to the items, but then "Select One" would also be displayed in the dropdown list as first item, which is not what I want. How can I fix this problem?

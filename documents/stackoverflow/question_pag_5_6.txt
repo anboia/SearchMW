@@ -1,0 +1,5 @@
+	#question
+290
+http://stackoverflow.com//questions/2736389/how-to-pass-object-from-one-activity-to-another-in-android
+Q: How to pass object from one activity to another in Android
+I am trying to work on sending an object of my customer class from one Activity and display in another Activity. The code for the customer class: public class Customer {    private String firstName, lastName, Address;    int Age;    public Customer(String fname, String lname, int age, String address) {        firstName = fname;        lastName = lname;        Age = age;        Address = address;    }    public String printValues() {        String data = null;        data = "First Name :" + firstName + " Last Name :" + lastName        + " Age : " + Age + " Address : " + Address;        return data;    }} I want to send its object from one Activity to another and then display the data on the other Activity. How can I achieve that?

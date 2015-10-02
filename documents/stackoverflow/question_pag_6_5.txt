@@ -1,0 +1,5 @@
+	#question
+237
+http://stackoverflow.com//questions/2250770/how-to-refresh-android-listview
+Q: How to refresh Android listview?
+How to refresh an Android ListView after adding/deleting dynamic data?

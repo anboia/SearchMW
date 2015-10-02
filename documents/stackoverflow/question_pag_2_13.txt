@@ -1,0 +1,5 @@
+	#question
+514
+http://stackoverflow.com//questions/2591036/how-to-hide-the-title-bar-for-an-activity-in-xml-with-existing-custom-theme
+Q: How to hide the title bar for an Activity in XML with existing custom theme
+I want to hide the titlebar for some of my activities. The problem is that I applied a style to all my activities, therefore I can't simply set the theme to @android:style/Theme.NoTitleBar. Using the NoTitleBar theme as a parent for my style would remove the title bar for to much activities. Can I set a no title style item somewhere?

@@ -1,0 +1,5 @@
+	#question
+304
+http://stackoverflow.com//questions/3769762/android-color-xml-resource-file
+Q: Android color xml resource file
+Does anyone have or know where I might get an Android color xml resource file containing all the X11/w3c color codes?
