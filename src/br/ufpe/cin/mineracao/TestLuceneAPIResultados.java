@@ -43,7 +43,7 @@ import org.apache.lucene.store.FSDirectory;
 import br.ufpe.cin.mineracao.model.business.DocumentProcessor;
 import br.ufpe.cin.mineracao.model.crowler.stackoverflow.TestStackOverflowResult;
 
-public class TestLuceneAPI {
+public class TestLuceneAPIResultados {
 
 	static DocumentProcessor processor;
 	static final int titleRepeatCount = 5;
@@ -59,46 +59,50 @@ public class TestLuceneAPI {
 		if(!Files.isReadable(docDir)){
 			System.out.println("NAO DÁ PRA LER A PASTA");
 		}
-		int config;
 		try {
 			 {
-				
+			Analyzer analyzer = null;
 			
-//			CharArraySet ss = new CharArraySet();
 			
-//			processor.createDocumentLogicView(docsPath, docsPath+"processed/");
 			
-			Directory dir = FSDirectory.open(Paths.get(indexPath));
-			/** SEM STOP_WORD e SEM STEMMING **/
-			Analyzer analyzer = new StandardAnalyzer(new CharArraySet(new Vector(), true)); config = 0;
-			
-			/** COM STOP_WORD e SEM STEMMING **/
-//			Analyzer analyzer = new StandardAnalyzer(StandardAnalyzer.STOP_WORDS_SET); config = 1;
-			
-			/** SEM STOP_WORD e COM STEMMING **/
-//			Analyzer analyzer = new EnglishAnalyzer(new CharArraySet(new Vector(), true),new CharArraySet(new Vector(), true)); config = 2;
-			
-			/** COM STOP_WORD e COM STEMMING **/
-//			Analyzer analyzer = new EnglishAnalyzer(StandardAnalyzer.STOP_WORDS_SET,new CharArraySet(new Vector(), true)); config = 3;
-			
-			IndexWriterConfig iwc = new IndexWriterConfig(analyzer);
-			
-			iwc.setOpenMode(OpenMode.CREATE);
-			
-			IndexWriter writer = new IndexWriter(dir, iwc);
-			indexDocs(writer, docDir);
-			
-			writer.close();
 			Scanner scan = new Scanner(System.in);
-			while(true){
-				System.out.println(">Digite sua query: ");
-				String inputQuery = scan.nextLine();
-				System.out.println(inputQuery);
+			System.out.println(">Digite sua query: ");
+			String inputQuery = "starting an activity"; //scan.nextLine();
+			System.out.println(inputQuery);
+
+			
+
+			for (int config = 0; config < 4; config++) {
+				Directory dir = FSDirectory.open(Paths.get(indexPath));
+				
+
+				
+				switch(config){
+				/** SEM STOP_WORD e SEM STEMMING **/
+					case 0: analyzer = new StandardAnalyzer(new CharArraySet(new Vector(), true)); break;
+				
+				/** COM STOP_WORD e SEM STEMMING **/
+					case 1: analyzer = new StandardAnalyzer(StandardAnalyzer.STOP_WORDS_SET); break;
+				
+				/** SEM STOP_WORD e COM STEMMING **/
+					case 2: analyzer = new EnglishAnalyzer(new CharArraySet(new Vector(), true),new CharArraySet(new Vector(), true)); break;
+				
+				/** COM STOP_WORD e COM STEMMING **/
+					case 3: analyzer = new EnglishAnalyzer(StandardAnalyzer.STOP_WORDS_SET,new CharArraySet(new Vector(), true)); break;
+				}
+				
+				IndexWriterConfig iwc = new IndexWriterConfig(analyzer);
+				
+				iwc.setOpenMode(OpenMode.CREATE);
+				
+				IndexWriter writer = new IndexWriter(dir, iwc);
+				indexDocs(writer, docDir);
+				
+				writer.close();
 
 				Query q = new QueryParser("contents", analyzer).parse(inputQuery);
-				
-		
 				System.out.println("my_query = "+q.toString());
+				
 
 				int hitsPerPage = 10;
 
@@ -114,30 +118,19 @@ public class TestLuceneAPI {
 
 
 				// 4. display results
-				System.out.println("Found " + hits.length + " hits.");
 				ArrayList<String> urlsFromQuery = new ArrayList<String>();
 				for(int i=0;i<hits.length;++i) {
 					int docId = hits[i].doc;
 					Document d = seacher.doc(docId);
 					urlsFromQuery.add(d.get("url"));
-					System.out.println((i + 1) + ". " + d.get("contents").substring(0)+"\n\n");
 				}
 				
-				
-				if(urlsFromQuery.size() != 0)
-				System.out.println(urlsFromQuery.get(0));
-				
-				
-
 				
 				System.out.println(getConfigName(config));
 				System.out.println("Total Hits: "+collector.getTotalHits());
 				// inicia calculos de cobertura
 				CalculoResultado.iniciarCalculos(urlsFromQuery, TestStackOverflowResult.getStackOverflowResult( inputQuery), reader.numDocs(), collector.getTotalHits());
 				
-
-				// reader can only be closed when there
-				// is no need to access the documents any more.
 				reader.close();
 			}
 			
